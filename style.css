@@ -1,32 +1,45 @@
 /* Estilos para el título h1 */
 h1 {
-    color: blue; /* Cambia el color del texto a azul */
-    font-family: Arial, sans-serif; /* Cambia la fuente */
+    color: #00ffff; /* Cyan */
+    font-family: 'Roboto', sans-serif; /* Fuente moderna */
+    text-align: center; /* Centra el texto */
 }
 
 /* Estilos para el párrafo */
 p {
-    font-size: 16px; /* Cambia el tamaño del texto */
+    font-size: 18px; /* Tamaño de fuente ligeramente más grande */
+    text-align: center; /* Centra el texto */
+    color: #ffffff; /* Blanco */
 }
 
 /* Estilos para la lista de juegos */
 ul {
     list-style-type: none; /* Quita los marcadores de lista */
+    padding: 0;
+    text-align: center; /* Centra los elementos de la lista */
 }
 
 /* Estilos para los elementos de la lista */
 li {
-    margin-bottom: 10px; /* Agrega un espacio entre los elementos de la lista */
+    margin-bottom: 20px; /* Espacio entre elementos */
 }
 
 /* Estilos para los enlaces */
 a {
     text-decoration: none; /* Quita el subrayado predeterminado de los enlaces */
-    color: green; /* Cambia el color del texto del enlace a verde */
+    color: #ff00ff; /* Magenta */
     font-weight: bold; /* Hace que el texto del enlace sea negrita */
+    transition: all 0.3s ease; /* Transición suave para cambios */
+    font-family: 'Montserrat', sans-serif; /* Fuente moderna */
 }
 
 /* Estilos para los enlaces cuando están siendo pasados por encima */
 a:hover {
-    color: red; /* Cambia el color del texto del enlace a rojo al pasar el mouse sobre él */
+    color: #00ff00; /* Verde */
+}
+
+/* Estilos generales de fondo */
+body {
+    background-color: #000000; /* Fondo negro */
+    font-family: 'Arial', sans-serif; /* Fuente de respaldo */
 }
