@@ -474,8 +474,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
   button.addEventListener('click', async function() {
       // Llama a la función pasoApaso 100 veces
-      for (let i = 0; i < 100; i++) {
+      for (let i = 0; i < 50; i++) {
           await pasoApaso();
+      }
+      if (i === 50){
+        alert("Fin de la partida");
       }
   });
 });
