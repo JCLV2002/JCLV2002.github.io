@@ -468,6 +468,17 @@ function moverRey(posicionInicial, filaDestino, columnaDestino, esBlanco) {
   return false; // El movimiento no fue válido para un rey
 }
 
+//funcion completo
+document.addEventListener('DOMContentLoaded', function() {
+  const button = document.querySelector('.button2');
+
+  button.addEventListener('click', async function() {
+      // Llama a la función pasoApaso 100 veces
+      for (let i = 0; i < 100; i++) {
+          await pasoApaso();
+      }
+  });
+});
 
 function tieneMayusculas(cadena) {
   return /[A-Z]/.test(cadena);

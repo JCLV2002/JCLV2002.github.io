@@ -2,14 +2,15 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Visualizador</title>
     <script src="./js/funciones.js"></script>
 </head>
 
 <body onload="iniciar()">
+    <center><h1>Visualizador de partidas de ajedrez</h1>
 
     <table id="Tablero">
 
@@ -77,7 +78,7 @@
             <td></td>
             <td>5</td>
         </tr>
-
+        <h1><p id="turno">blanco</p>
         <tr>
             <td>4</td>
             <td></td>
@@ -145,24 +146,17 @@
 
     </table>
 
-    <div>
-        <select name="" id="Combo" onchange="partidas()">
-            <option value="0">---------</option>
-            <option value="1">Partida 1</option>
-            <option value="2">Partida 2</option>
-            <option value="3">Partida 3</option>
-        </select>
-    </div>
-
     <textarea name="" id="texto" cols="30" rows="10" disabled></textarea>
     <button class="button1" onclick="pasoApaso()">Paso a paso</button>
-    <button class="button2">Completo</button>
-    
+    <button class="button2" id="boton">Completo</button>
+    <button onclick="location.reload();">Recargar Partida</button>
+
     <input class="button3" type="file" name="Cargar partida" id="cargarBoton" onchange="cargarPartida()">
-    <input type="button" value="Test" onclick="test()">
-    <h1><p id="turno">blanco</p>
+   
+   
     
     <p id="out"></p></h1>
+</center>
 </body>
 
 </html>

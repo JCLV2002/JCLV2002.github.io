@@ -1,0 +1,156 @@
+/* Estilos para la tabla */
+table {
+    border-collapse: collapse;
+    width: 400px;
+    height: 400px;
+    margin: 30px auto;
+    border-radius: 10px;
+    overflow: hidden; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
+    background: linear-gradient(45deg, #1c1c1c, #383838); 
+  }
+  
+  /* Estilos para las celdas */
+  td {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 24px;
+    color: #fff; /* Texto en blanco */
+  }
+  
+  /* Estilos para celdas pares e impares */
+  tr:nth-child(odd) td:nth-child(odd),
+  tr:nth-child(even) td:nth-child(even) {
+    background-color: #3f3f3f; 
+  }
+  
+  tr:nth-child(odd) td:nth-child(even),
+  tr:nth-child(even) td:nth-child(odd) {
+    background-color: #555; 
+  }
+  
+  /* Estilos para el mensaje */
+  #reinasColoca, #reinasColoca1 {
+    color: #fff; /* Texto en blanco */
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para el contenedor */
+div {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para el select */
+  select {
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+/* Estilos para el textarea */
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: none;
+  }
+  /* Estilos para los botones */
+  .button1, .button2, .button3 {
+    background-color: #4CAF50; /* Color de fondo */
+    border: none;
+    color: white;
+    padding: 10px 20px; /* Espaciado interno */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition-duration: 0.4s; /* Duración de la transición */
+  }
+  
+  .button1:hover, .button2:hover, .button3:hover {
+    background-color: #45a049; /* Cambio de color al pasar el ratón */
+  }
+  
+  /* Estilos para el input de tipo file */
+  .input[type="file"] {
+    display: none; /* Ocultar el input file */
+  }
+  
+  /* Estilos para los encabezados */
+  h1 {
+    margin-top: 20px;
+  }
+  
+  /* Estilos para el párrafo */
+  p {
+    margin: 0;
+  }
+  
+/* Estilos para el botón de recargar partida */
+button {
+    background-color: #4CAF50; /* Color de fondo */
+    border: none;
+    color: white;
+    padding: 10px 20px; /* Espaciado interno */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px; /* Margen a la derecha para separar los botones */
+    cursor: pointer;
+    border-radius: 8px;
+    transition-duration: 0.4s; /* Duración de la transición */
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Cambio de color al pasar el ratón */
+  }
+  
+  /* Estilos para el input de tipo file 
+  .input[type="file"] {
+    background-color: #4CAF50; /* Color de fondo 
+    border: none;
+    color: white;
+    padding: 10px 20px; /* Espaciado interno 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition-duration: 0.4s; /* Duración de la transición 
+  }
+  */
+  .input[type="file"]:hover {
+    background-color: #45a049; /* Cambio de color al pasar el ratón */
+  }
+  
+  /* Estilos para el botón de Test */
+  .input[type="button"] {
+    background-color: #4CAF50; /* Color de fondo */
+    border: none;
+    color: white;
+    padding: 10px 20px; /* Espaciado interno */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 10px; /* Margen a la izquierda para separar los botones */
+    cursor: pointer;
+    border-radius: 8px;
+    transition-duration: 0.4s; /* Duración de la transición */
+  }
+  
+  .input[type="button"]:hover {
+    background-color: #45a049; /* Cambio de color al pasar el ratón */
+  }
+  
+  
+  

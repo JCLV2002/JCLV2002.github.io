@@ -1,3 +1,4 @@
+/* Estilos para la tabla */
 table {
   border-collapse: collapse;
   width: 400px;
@@ -9,6 +10,7 @@ table {
   background: linear-gradient(45deg, #1c1c1c, #383838); 
 }
 
+/* Estilos para las celdas */
 td {
   width: 50px;
   height: 50px;
@@ -17,6 +19,7 @@ td {
   color: #fff; /* Texto en blanco */
 }
 
+/* Estilos para celdas pares e impares */
 tr:nth-child(odd) td:nth-child(odd),
 tr:nth-child(even) td:nth-child(even) {
   background-color: #3f3f3f; 
@@ -26,16 +29,20 @@ tr:nth-child(odd) td:nth-child(even),
 tr:nth-child(even) td:nth-child(odd) {
   background-color: #555; 
 }
+
+/* Estilos para el mensaje */
 #reinasColoca, #reinasColoca1 {
   color: #fff; /* Texto en blanco */
   font-size: 16px;
   margin-bottom: 10px;
 }
 
+/* Estilos para el contenedor de botones */
 #div_button {
   text-align: center;
 }
 
+/* Estilos para los botones */
 .button {
   background-color: #4CAF50; /* Color de fondo */
   border: none;
@@ -55,6 +62,7 @@ tr:nth-child(even) td:nth-child(odd) {
   background-color: #45a049; /* Cambio de color al pasar el ratón */
 }
 
+/* Estilos para el botón de reinicio */
 #div_button button {
   background-color: #f44336; /* Color de fondo para el botón de reinicio */
 }
@@ -63,6 +71,8 @@ tr:nth-child(even) td:nth-child(odd) {
   background-color: #008000; /* Cambio de color al pasar el ratón sobre el botón de reinicio */
 }
 
+/* Estilos generales */
 body {
-  background-color: #000000; 
+  background-color: #000000; /* Fondo negro */
+  color: #ffffff; /* Texto en blanco */
 }
