@@ -130,13 +130,13 @@ async function pasoApaso() {
   var tabla = document.getElementById("Tablero");
   var lineas = celdas.split("\n");
   //for (let i = 0; i < lineas.length; i++) {
-  //alert(lineas[i]);
+  alert(lineas[i]);
   var tokens = lineas[i].split(" ");
   //for (let j = 1; j < tokens.length; j++) {
   //alert(tokens[j]);
   //alert(tieneMayusculas(tokens[j]));
   j = 1;
-  if (!tieneMayusculas(tokens[j])) {
+  if (!tieneMayusculas(tokens[i])) {
     //alert("Si soy un Peon y me moví a "+tokens[j]);
     var posicion = tokens[j].split(/(\d+)/);
     //El usar alert no se recomienda porque no puedes hacer nada en la página, se recomienda usar el console.log
