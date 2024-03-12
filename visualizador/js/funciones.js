@@ -527,3 +527,7 @@ async function test() {
     document.getElementById("out").innerHTML = salida;
   }
 }
+
+function mostrarAlerta() {
+  alert("Aun no esta terminado el juego, tengo problemas con la logica, aun lo sigo trabajando. UNA DISCULPA.");
+}
