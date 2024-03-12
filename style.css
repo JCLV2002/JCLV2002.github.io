@@ -1,0 +1,32 @@
+/* Estilos para el título h1 */
+h1 {
+    color: blue; /* Cambia el color del texto a azul */
+    font-family: Arial, sans-serif; /* Cambia la fuente */
+}
+
+/* Estilos para el párrafo */
+p {
+    font-size: 16px; /* Cambia el tamaño del texto */
+}
+
+/* Estilos para la lista de juegos */
+ul {
+    list-style-type: none; /* Quita los marcadores de lista */
+}
+
+/* Estilos para los elementos de la lista */
+li {
+    margin-bottom: 10px; /* Agrega un espacio entre los elementos de la lista */
+}
+
+/* Estilos para los enlaces */
+a {
+    text-decoration: none; /* Quita el subrayado predeterminado de los enlaces */
+    color: green; /* Cambia el color del texto del enlace a verde */
+    font-weight: bold; /* Hace que el texto del enlace sea negrita */
+}
+
+/* Estilos para los enlaces cuando están siendo pasados por encima */
+a:hover {
+    color: red; /* Cambia el color del texto del enlace a rojo al pasar el mouse sobre él */
+}
