@@ -34,3 +34,9 @@ h1, h2 {
 .contact-info li {
   margin-bottom: 5px;
 }
+.profile-image {
+  width: 150px; /* Ajusta el tamaño de la imagen */
+  height: 150px;
+  border-radius: 50%; /* Hace la imagen circular */
+  margin-bottom: 10px;
+}
